@@ -17,7 +17,4 @@ jobs:
 
       - name: Install Package
         run: |
-          sudo apt-get install -y figlet
-          figlet "GH-200 COHACK"
-          echo "-----------------"
-          figlet -f digital "GITHUB ACTIONS"
+          ./scripts/greet.sh
